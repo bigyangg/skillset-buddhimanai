@@ -123,3 +123,7 @@ Execute these checks before submitting any formal document:
 *   [ ] **Grid & Padding Check:** Do all tables feature vertical padding (minimum 6pt cell margins) and cleanly aligned numbers?
 *   [ ] **Terminology Audit:** Have we used the same exact names for datasets, agencies, and variables across all sections?
 *   [ ] **Review standard:** Would this document be accepted by a senior partner at a top management consultancy or a peer-review panel at a top-tier university?
+
+---
+
+_Adapted from: https://github.com/hoodini/ai-agents-skills (MIT License)_

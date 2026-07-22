@@ -116,3 +116,7 @@ Review all product text snippets through this checklist before integration:
 *   [ ] **Error Resolution:** Does every invalid flow validation state a clear path to fix the error?
 *   [ ] **Sentence Case Check:** Do all helper blocks, labels, and text fields follow the sentence casing schema?
 *   [ ] **Review standard:** Would this copy survive a strict review by the UX Content Leads at a world-class consumer product studio?
+
+---
+
+_Adapted from: https://github.com/hoodini/ai-agents-skills (MIT License)_

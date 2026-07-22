@@ -123,3 +123,7 @@ Execute these critical checks before shipping any visual brand asset:
 *   [ ] **Motion Constraint:** Is the page load smooth and fast? Have we restricted animation to only one key sequence while everything else loads inline?
 *   [ ] **Studio Review Quality:** Would this graphic, deck slide, or page hold up under visual scrutiny from Design Directors at a top-tier brand agency?
 ```,Complexity:3,Description:
+
+---
+
+_Adapted from: https://github.com/hoodini/ai-agents-skills (MIT License)_

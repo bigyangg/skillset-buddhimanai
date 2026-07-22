@@ -1,0 +1,13 @@
+# Scratch clones — source repos used for building the skill library
+.scratch/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/

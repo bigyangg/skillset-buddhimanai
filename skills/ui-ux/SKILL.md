@@ -201,3 +201,7 @@ Run your visual outputs through these internal prompt checks before completing a
 *   [ ] **Nested Rhythm:** Are all internal margin structures correct relative to outer edge parameters? Do nested corner radii fit smoothly without pinching?
 *   [ ] **Accessibility Verification:** Have `:focus-visible` styles been explicitly defined for keyboard navigation?
 *   [ ] **The Studio Standard:** Would this design successfully pass a design audit by visual directors at a high-end product studio?
+
+---
+
+_Adapted from: https://github.com/hoodini/ai-agents-skills (MIT License)_

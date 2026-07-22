@@ -96,3 +96,7 @@ Compile every test pass into a structured report using these markers:
     *   *Medium:* Sub-optimal validation (e.g., missing rate limiters, no token rotation).
     *   *Low:* Best-practice notifications (e.g., high clock skew tolerance limits).
 4.  **Remediation Steps:** Concrete examples of code fixes or configuration changes needed.
+
+---
+
+_Adapted from: https://github.com/hoodini/ai-agents-skills (MIT License)_
