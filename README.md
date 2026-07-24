@@ -1,6 +1,6 @@
 # 🧠 skillset-buddhimanai
 
-A classroom-ready library of **76 AI agent skills** organized into 11 focused categories. Each skill teaches an AI coding agent (Claude Code, Cursor, GitHub Copilot, etc.) how to reliably execute a specific engineering, design, or operational task.
+A classroom-ready library of **96 AI agent skills** organized into 11 focused categories. Each skill teaches an AI coding agent (Claude Code, Cursor, GitHub Copilot, etc.) how to reliably execute a specific engineering, design, or operational task.
 
 All skills are **generic and reusable** — no blockchain, crypto, or platform-specific content. Every skill includes clear trigger phrases so agents can self-route.
 
@@ -10,18 +10,18 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 
 | Folder | Skills | Purpose |
 |--------|-------:|---------|
-| `engineering/` | 11 | Core software engineering practices |
-| `process/` | 9 | Development workflows & methodologies |
-| `infra/` | 8 | Cloud, deployment & runtime infrastructure |
-| `growth-ops/` | 8 | Analytics, marketing ops & developer tools |
+| `engineering/` | 13 | Core software engineering practices |
+| `process/` | 10 | Development workflows & methodologies |
+| `infra/` | 12 | Cloud, deployment & runtime infrastructure |
+| `growth-ops/` | 10 | Analytics, marketing ops & developer tools |
 | `design/` | 8 | Visual identity & design systems |
 | `docs/` | 8 | Documentation, research & knowledge management |
 | `media/` | 7 | AI-generated media & video production |
-| `agent-dev/` | 4 | AI agent frameworks & SDK integration |
-| `content/` | 4 | Pitch decks, copy & content creation |
-| `ui-ux/` | 5 | Interface design & frontend implementation |
-| `testing/` | 4 | Quality audits & security reviews |
-| **Total** | **76** | |
+| `agent-dev/` | 8 | AI agent frameworks & SDK integration |
+| `content/` | 5 | Pitch decks, copy & content creation |
+| `ui-ux/` | 7 | Interface design & frontend implementation |
+| `testing/` | 6 | Quality audits, E2E & performance testing |
+| **Total** | **96** | |
 
 ---
 
@@ -37,12 +37,14 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `ci-cd-and-automation` | CI/CD pipeline design, GitHub Actions, deployment automation |
 | `code-review-and-quality` | Structured code review checklists and quality gates |
 | `code-simplification` | Refactoring patterns to reduce complexity without losing meaning |
+| `database-design` | **NEW** — Relational schema modeling, normalization, FK indexes, and migrations |
 | `debugging-and-error-recovery` | Systematic debugging methodology and error recovery playbooks |
 | `deprecation-and-migration` | Safe deprecation strategies and migration guides |
 | `observability-and-instrumentation` | Logging, tracing, metrics, and alerting patterns |
 | `performance-optimization` | Frontend and backend performance profiling and optimization |
 | `security-and-hardening` | Security best practices, hardening checklists, threat review |
 | `test-driven-development` | TDD workflow: red → green → refactor with real examples |
+| `typescript-patterns` | **NEW** — Advanced TypeScript: generics, discriminated unions, branded types, utility types |
 
 ---
 
@@ -51,6 +53,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 
 | Skill | Description |
 |-------|-------------|
+| `code-archaeology` | **NEW** — Navigate, map, and safely modify unfamiliar or legacy codebases |
 | `context-engineering` | Structuring context and prompts for maximum AI agent effectiveness |
 | `doubt-driven-development` | Surface and resolve hidden assumptions before building |
 | `git-workflow-and-versioning` | Branch strategy, commit conventions, PR and merge best practices |
@@ -72,9 +75,13 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `aws-harness` | AWS test harness patterns for integration and E2E testing |
 | `bun` | Bun runtime: installation, bundling, test runner, and scripts |
 | `cloudflare` | Cloudflare Workers, Pages, R2, D1, and edge deployment patterns |
+| `docker` | **NEW** — Dockerfiles, multi-stage builds, Compose, and container security |
 | `local-llm-router` | Route AI requests between local LLMs (Ollama, LM Studio) and cloud APIs |
 | `mongodb` | MongoDB schema design, queries, aggregations, and Atlas setup |
+| `postgres` | **NEW** — PostgreSQL schema design, indexing, queries, EXPLAIN ANALYZE, migrations |
 | `railway` | Railway deployment: config, environment variables, and scaling |
+| `redis` | **NEW** — Redis caching patterns, pub/sub, sessions, rate limiting, distributed locks |
+| `supabase` | **NEW** — Supabase backend: auth, database, storage, realtime, edge functions |
 | `vercel` | Vercel deployment: Next.js, Edge Functions, env config, and domains |
 
 ---
@@ -91,6 +98,8 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `mermaid-diagrams` | Generate architecture diagrams and flowcharts with Mermaid |
 | `meta-ads` | Meta (Facebook/Instagram) Ads campaign structure and automation |
 | `owasp-security` | OWASP Top 10 security checklist for web applications |
+| `product-hunt` | **NEW** — Product Hunt launch: 30-day plan, assets, maker comment, outreach strategy |
+| `seo-optimization` | **NEW** — Technical SEO: meta tags, Core Web Vitals, structured data, sitemaps |
 | `x-twitter-scraper` | ⚠️ X/Twitter data extraction — **teaching example only, check ToS** |
 
 ---
@@ -121,6 +130,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `idea-refine` | Sharpen rough ideas into well-defined problem statements |
 | `navigate-skills` | Meta-skill: browse this skill catalog to find the right tool |
 | `project-learnings` | Capture, search, prune, and export cross-session project learnings |
+| `user-research` | **NEW** — User interviews, usability testing, synthesis, and research reports |
 | `using-agent-skills` | How to install, invoke, and compose agent skills |
 | `validate-idea` | Structured validation sprint: go/no-go recommendation with evidence |
 
@@ -148,8 +158,12 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 |-------|-------------|
 | `aws-strands` | AWS Strands agent framework: build, deploy, and chain agents |
 | `copilot-sdk` | GitHub Copilot Extensions SDK and agent development |
+| `crewai` | **NEW** — CrewAI multi-agent orchestration: roles, tasks, tools, and process flows |
 | `honest-agent` | Build agents with strict honesty constraints and uncertainty disclosure |
 | `langchain` | LangChain: chains, agents, memory, and tool integration |
+| `mcp-server` | **NEW** — Build MCP servers: tools, resources, and prompts for AI models |
+| `openai-sdk` | **NEW** — OpenAI API: completions, streaming, structured outputs, tool calling, embeddings |
+| `pydantic-ai` | **NEW** — PydanticAI: type-safe agents, structured outputs, and dependency injection |
 
 ---
 
@@ -160,6 +174,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 |-------|-------------|
 | `create-pitch-deck` | Build investor-ready pitch decks using Sequoia/YC/a16z frameworks |
 | `marketing-video` | Product marketing videos with Remotion (code-driven) |
+| `technical-blog` | **NEW** — Write engineering posts: structure, hooks, code examples, SEO basics |
 | `video-craft` | Frame-level visual composition for Remotion video scenes |
 | *(folder-level)* `Premium UX Writing & Product Copy Guidelines` | Microcopy, error messaging, onboarding, and tone calibration rules |
 
@@ -170,9 +185,11 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 
 | Skill | Description |
 |-------|-------------|
+| `dark-mode` | **NEW** — CSS variable theming, system preference detection, SSR flash prevention |
 | `frontend-design-guidelines` | Comprehensive UI rules: a11y, states, forms, dark mode, tokens |
 | `frontend-ui-engineering` | React/Next.js component patterns, Tailwind, and shadcn/ui |
 | `page-load-animations` | Framer-motion recipes: stagger, spring, page choreography |
+| `state-management` | **NEW** — TanStack Query, Zustand, URL state, and Context decision tree |
 | `web-accessibility` | WCAG 2.1 checklist, ARIA patterns, and accessible component recipes |
 | *(folder-level)* `ui-ux` (original) | — |
 
@@ -183,6 +200,8 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 
 | Skill | Description |
 |-------|-------------|
+| `e2e-testing` | **NEW** — Playwright E2E: page objects, auth setup, CI integration, visual regression |
+| `load-testing` | **NEW** — k6 and Locust: load scenarios, p95/p99 metrics, capacity planning |
 | `product-review` | Structured product quality evaluation across 8 UX dimensions |
 | `roast-my-product` | Brutal honest critique: find every weakness before users do |
 | `security-audit` | CSO-mode: secrets archaeology, OWASP Top 10, STRIDE threat model |
@@ -206,6 +225,18 @@ Plan → Code → Review:
 
 Video Production:
   marketing-video → video-craft → video-director (advanced)
+
+AI Agent Pipeline:
+  openai-sdk → langchain → crewai (multi-agent) → mcp-server (expose tools)
+
+Full-Stack App:
+  database-design → postgres → supabase → docker → vercel
+
+Launch:
+  product-review → seo-optimization → product-hunt
+
+New Codebase:
+  code-archaeology → typescript-patterns → e2e-testing
 ```
 
 ---
