@@ -1,8 +1,8 @@
-# 🧠 skillset-buddhimanai
+#  skillset-buddhimanai
 
 A classroom-ready library of **94 AI agent skills** organized into 11 focused categories. Each skill teaches an AI coding agent (Claude Code, Cursor, GitHub Copilot, etc.) how to reliably execute a specific engineering, design, or operational task.
 
-All skills are **generic and reusable** — with no blockchain, crypto, or platform-specific dependencies. Each skill includes clear trigger phrases to support reliable agent routing.
+All skills are **generic and reusable** — . Each skill includes clear trigger phrases to support reliable agent routing.
 
 The catalog is curated to be **managed, session-ready, and explicit**: category-level guidance is listed alongside task-specific skills, repository counts are accurate, and category boundaries are clearly defined.
 
