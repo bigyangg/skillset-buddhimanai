@@ -1,8 +1,10 @@
 # 🧠 skillset-buddhimanai
 
-A classroom-ready library of **96 AI agent skills** organized into 11 focused categories. Each skill teaches an AI coding agent (Claude Code, Cursor, GitHub Copilot, etc.) how to reliably execute a specific engineering, design, or operational task.
+A classroom-ready library of **94 AI agent skills** organized into 11 focused categories. Each skill teaches an AI coding agent (Claude Code, Cursor, GitHub Copilot, etc.) how to reliably execute a specific engineering, design, or operational task.
 
-All skills are **generic and reusable** — no blockchain, crypto, or platform-specific content. Every skill includes clear trigger phrases so agents can self-route.
+All skills are **generic and reusable** — with no blockchain, crypto, or platform-specific dependencies. Each skill includes clear trigger phrases to support reliable agent routing.
+
+The catalog is curated to be **managed, session-ready, and explicit**: category-level guidance is listed alongside task-specific skills, repository counts are accurate, and category boundaries are clearly defined.
 
 ---
 
@@ -15,13 +17,13 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `infra/` | 12 | Cloud, deployment & runtime infrastructure |
 | `growth-ops/` | 10 | Analytics, marketing ops & developer tools |
 | `design/` | 8 | Visual identity & design systems |
-| `docs/` | 8 | Documentation, research & knowledge management |
+| `docs/` | 9 | Documentation, research & knowledge management |
 | `media/` | 7 | AI-generated media & video production |
 | `agent-dev/` | 8 | AI agent frameworks & SDK integration |
 | `content/` | 5 | Pitch decks, copy & content creation |
-| `ui-ux/` | 7 | Interface design & frontend implementation |
+| `ui-ux/` | 6 | Interface design & frontend implementation |
 | `testing/` | 6 | Quality audits, E2E & performance testing |
-| **Total** | **96** | |
+| **Total** | **94** | |
 
 ---
 
@@ -100,7 +102,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `owasp-security` | OWASP Top 10 security checklist for web applications |
 | `product-hunt` | **NEW** — Product Hunt launch: 30-day plan, assets, maker comment, outreach strategy |
 | `seo-optimization` | **NEW** — Technical SEO: meta tags, Core Web Vitals, structured data, sitemaps |
-| `x-twitter-scraper` | ⚠️ X/Twitter data extraction — **teaching example only, check ToS** |
+| `x-twitter-scraper` | X/Twitter data extraction — provided as a teaching example; review platform terms before use |
 
 ---
 
@@ -111,12 +113,12 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 |-------|-------------|
 | `brand-design` | Full brand pass — palette, typography, gradients, and tone/voice |
 | `cinematic-scrub-landing` | Scroll-driven cinematic landing pages with video scrub effects |
-| `design-taste` | Design judgment, anti-generic-AI review, and visual direction |
+| `design-taste` | Design judgment, generic-output review, and visual direction |
 | `figma` | Figma workflows: component building, auto-layout, and handoff |
 | `mobile-responsiveness` | Mobile-first responsive design patterns and breakpoint strategy |
 | `parallax-landing-page` | Parallax scroll effects for high-impact landing pages |
 | `ux-design-systems` | Design system architecture: tokens, components, and governance |
-| *(folder-level)* `Premium Brand & Visual Design Guidelines` | Senior-level brand system rules for icons, motion, and layout |
+| *(category-guidelines)* `Premium Brand & Visual Design Guidelines` | Brand system direction for palette, icons, motion, and layout consistency |
 
 ---
 
@@ -126,6 +128,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | Skill | Description |
 |-------|-------------|
 | `competitive-landscape` | Map competitors, substitutes, and dead projects for any idea |
+| *(category-guidelines)* `Formal Document Writing & Editing Guidelines` | Executive-grade document structure, citation, formatting, and editorial consistency |
 | `documentation-and-adrs` | Write ADRs, READMEs, and technical documentation |
 | `idea-refine` | Sharpen rough ideas into well-defined problem statements |
 | `navigate-skills` | Meta-skill: browse this skill catalog to find the right tool |
@@ -141,7 +144,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 
 | Skill | Description |
 |-------|-------------|
-| `director` | AI video director — orchestrate scripts, scenes, and renders |
+| `director` | Coordinate scripts, scenes, and renders for AI-assisted video production |
 | `fal-ai` | fal.ai image and video generation API integration |
 | `image-master` | Advanced image generation, editing, and batch processing |
 | `nano-banana-pro` | Lightweight AI media pipeline for quick content generation |
@@ -176,7 +179,7 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `marketing-video` | Product marketing videos with Remotion (code-driven) |
 | `technical-blog` | **NEW** — Write engineering posts: structure, hooks, code examples, SEO basics |
 | `video-craft` | Frame-level visual composition for Remotion video scenes |
-| *(folder-level)* `Premium UX Writing & Product Copy Guidelines` | Microcopy, error messaging, onboarding, and tone calibration rules |
+| *(category-guidelines)* `Premium UX Writing & Product Copy Guidelines` | Product copy standards for microcopy, onboarding, error states, and tone control |
 
 ---
 
@@ -191,7 +194,6 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 | `page-load-animations` | Framer-motion recipes: stagger, spring, page choreography |
 | `state-management` | **NEW** — TanStack Query, Zustand, URL state, and Context decision tree |
 | `web-accessibility` | WCAG 2.1 checklist, ARIA patterns, and accessible component recipes |
-| *(folder-level)* `ui-ux` (original) | — |
 
 ---
 
@@ -202,8 +204,9 @@ All skills are **generic and reusable** — no blockchain, crypto, or platform-s
 |-------|-------------|
 | `e2e-testing` | **NEW** — Playwright E2E: page objects, auth setup, CI integration, visual regression |
 | `load-testing` | **NEW** — k6 and Locust: load scenarios, p95/p99 metrics, capacity planning |
+| *(category-guidelines)* `Application Security & Auth QA Testing Guidelines` | Security-focused QA coverage for auth, sessions, and critical application flows |
 | `product-review` | Structured product quality evaluation across 8 UX dimensions |
-| `roast-my-product` | Brutal honest critique: find every weakness before users do |
+| `roast-my-product` | Direct product critique to surface weaknesses before release |
 | `security-audit` | CSO-mode: secrets archaeology, OWASP Top 10, STRIDE threat model |
 
 ---
@@ -243,23 +246,23 @@ New Codebase:
 
 ## ⚠️ Deliberate Exclusions
 
-The following were **intentionally not included**:
+The following items were **intentionally excluded**:
 
 | Excluded | Reason |
 |----------|--------|
-| All `yuv-*` skills (yuv-decks, yuv-design-system, yuv-pilot, yuv-reel-covers, yuv-video-director, yuv-viral-video) | Personally branded to Yuval Avidani / YUV.AI — not generic/reusable |
-| `shabbat-times` | Hebcal/Jewish calendar API — too narrow for a general skillset |
-| All blockchain/DeFi/crypto skills from solana-new | Domain-specific, violates generic-only constraint |
+| All `yuv-*` skills (yuv-decks, yuv-design-system, yuv-pilot, yuv-reel-covers, yuv-video-director, yuv-viral-video) | Individually branded and not suitable for a general-purpose public catalog |
+| `shabbat-times` | Too narrow in scope for a general-purpose skill library |
+| All blockchain/DeFi/crypto skills from solana-new | Domain-specific and outside the generic-library scope |
 
-The engine routing logic from `yuv-video-director` (GSAP/Lottie/ManimCE/HyperFrames) was extracted and genericized into `media/video-director` with all personal branding removed.
+The engine-routing logic from `yuv-video-director` (GSAP/Lottie/ManimCE/HyperFrames) was generalized into `media/video-director`, with personal branding removed.
 
 ---
 
 ## 📋 How to Use a Skill
 
 1. **Install** — Copy the desired skill folder into your project's `.claude/skills/` or `.github/skills/`
-2. **Trigger** — Use any of the trigger phrases listed in the skill's `description` frontmatter
-3. **Compose** — Chain skills together for complex multi-step workflows
+2. **Trigger** — Invoke the skill using any of the trigger phrases listed in its `description` frontmatter
+3. **Compose** — Combine skills to support larger multi-step workflows
 
 ```bash
 # Copy a skill to your project
@@ -273,7 +276,7 @@ cp -r skills/ .claude/skills/
 
 ## 📜 License & Attribution
 
-All skills are MIT licensed. Original sources:
+All skills are MIT-licensed. Original sources:
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — generic engineering skills
 - [sendaifun/solana-new](https://github.com/sendaifun/solana-new) — product/design skills (adapted, crypto content removed)
 - [hoodini/ai-agents-skills](https://github.com/hoodini/ai-agents-skills) — infra, media, and growth ops skills
